@@ -20,5 +20,6 @@ public class CardDealer
         nineClubs.setSuit("diamonds");
         Card c = new Card("hearts",8);
         c.setSuit("hearts");
+        System.out.println("c.getsuit()");
     }
 }
